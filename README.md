@@ -49,4 +49,4 @@ Publicly available datasets from:
 ## 📧 Contact  
 For inquiries about the prospective registration:  
 - **Email**: jlchen7080@gmail.com  
-- **Institutional Affiliation**: Chengdu University of Traditional Medicine + Independent Neuroimaging Initiative(NeuroMAP)
+- **Institutional Affiliation**: Chengdu University of Traditional Chinese Medicine + Independent Neuroimaging Initiative(NeuroMAP)
