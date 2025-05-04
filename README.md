@@ -1,5 +1,5 @@
 # NMAP-Fusion: Neuroimaging Meta-Analysis Protocol  
-**Status**: Prospective registration pending ([PROSPERO ID: PENDING]() | [OSF: Under Construction](https://osf.io/p7cjd/) | [ZENODO DOI: PENDING]())
+**Status**: Prospective registration pending ([PROSPERO ID:CRD420251044665 PENDING](https://www.crd.york.ac.uk/PROSPERO/view/CRD420251044665) | [OSF: Under Construction](https://osf.io/p7cjd/) | [ZENODO DOI: PENDING]())
 > *Disclaimer: This project (NeuroMap Alignment Pipeline) is unrelated to the Nmap Security Scanner (nmap.org).*
 
 ---
