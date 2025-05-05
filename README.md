@@ -1,53 +1,58 @@
-# NMAP-Fusion: Neuroimaging Meta-Analysis Protocol  
-**Status 1**: Registrated ([PROSPERO ID:CRD420251044665](https://www.crd.york.ac.uk/PROSPERO/view/CRD420251044665)
-**Status 2**: Prospective registration pending [OSF: Under Construction](https://osf.io/p7cjd/) | [ZENODO DOI: PENDING]())
-> *Disclaimer: This project (NeuroMap Alignment Pipeline) is unrelated to the Nmap Security Scanner (nmap.org).*
+# NMAP-Fusion v0.1: PROSPERO-Registered Neuroimaging Meta-Analysis Pipeline  
+[![PROSPERO](https://img.shields.io/badge/PROSPERO-CRD420251044665-blue)](https://www.crd.york.ac.uk/PROSPERO/view/CRD420251044665) [![OSF](https://img.shields.io/badge/OSF-Pre–reg-brightgreen)](https://osf.io/p7cjd/) [![Zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.15330614.svg)](https://doi.org/10.5281/zenodo.15330614)
+
+> *Disclaimer: “NeuroMap Alignment Pipeline” is independent of the Nmap security scanner (nmap.org).*
 
 ---
 
 ## 📜 Study Overview  
-This repository accompanies a **prospectively registered** neuroimaging meta-analysis protocol. The study aims to develop an integrative approach for synthesizing functional MRI findings, with an emphasis on transparency and reproducibility.  
+This repository hosts the **pre-implementation** for a PROSPERO-registered protocol (CRD420251044665) to develop an integrated meta-analysis pipeline that:  
+1. Unifies coordinate-based (ALE) and image-based (Neurosynth) methods  
+2. Incorporates predictive modeling (NeuroQuery)  
+3. Adheres to PRISMA for transparency and reproducibility  
 
-> 🔒 **Note**: This is a pre-release repository. Full code and data will be shared upon protocol approval and manuscript submission.  
+> 🔒 **Note**: Full code, data, and docs will be released after protocol approval and manuscript submission.
 
 ---
 
-## 🛠️ Current Contents  
-### Configuration Files (`config/`)  
-- `preset_categories.yaml`: Behavioral domain classification template  
-- `stopwords_custom.yaml`: Custom noise-filtering terms  
+## 🛠️ Current Contents (`config/`)  
+- **`preset_categories.yaml`**  
+  Behavioral-domain classification template  
+- **`stopwords_custom.yaml`**  
+  Custom keyword-filtering list  
 
-> ⚠️ **Non-overwrite Policy**: Existing files are preserved during updates.  
+> ⚠️ _Existing files are never overwritten to preserve reproducibility._
 
 ---
 
 ## 📋 Planned Methodology  
-The protocol will:  
-1. Combine coordinate-based and image-based meta-analysis techniques  
-2. Incorporate quality control steps for robust results  
-3. Follow PRISMA guidelines for systematic review  
+1. **Data ingestion** from BrainMap Sleuth (MNI coordinates) and Neurosynth (association maps)  
+2. **Quality control**: outlier detection, coordinate‐space checks  
+3. **Meta-analysis**: ALE + image-based synthesis + predictive modeling  
+4. **Reporting**: PRISMA flowcharts, result tables, interactive visualizations  
 
 ---
 
 ## 📦 Expected Data Sources  
-Publicly available datasets from:  
-- BrainMap Sleuth (MNI coordinate data)  
-- Neurosynth (association maps)  
+- **BrainMap Sleuth** (v3.0.4) – fMRI studies with MNI coordinates  
+- **Neurosynth** – whole-brain decoding association maps  
 
-> 📌 *Data acquisition methods will be detailed in the registered protocol.*  
+> Detailed acquisition and preprocessing steps are in Section 3.1 of the PROSPERO protocol.
 
 ---
 
 ## 📅 Release Plan  
-| Stage               | Content                           |  
-|---------------------|-----------------------------------|  
-| **Protocol Approval** | PROSPERO/OSF registration links  |  
-| **Post-Submission**  | Non-core analysis scripts        |  
-| **Post-Acceptance**  | Full pipeline + documentation    |  
+| Stage                | Deliverables                              |
+|----------------------|-------------------------------------------|
+| **Protocol Approval**| PROSPERO & OSF records                    |
+| **Preprint**         | bioRxiv manuscript + non-core scripts     |
+| **Manuscript**       | Journal submission                        |
+| **Public Release**   | Full pipeline code & documentation (GPL-3.0) |
 
 ---
 
 ## 📧 Contact  
-For inquiries about the prospective registration:  
+- **Lead author**: Jiale Chen (ORCID: 0009-0008-3902-9675)  
 - **Email**: jlchen7080@gmail.com  
-- **Institutional Affiliation**: Chengdu University of Traditional Chinese Medicine + Independent Neuroimaging Initiative(NeuroMAP)
+- **Affiliation**: Chengdu University of Traditional Chinese Medicine / NeuroMAP Initiative  
+- **GitHub**: https://github.com/NeroMAP/NMAP-Fusion  
