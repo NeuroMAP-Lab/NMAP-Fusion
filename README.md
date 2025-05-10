@@ -8,8 +8,7 @@
 ---
 
 ## 🧠 About This Project  
-This is the official implementation repository for the **NeuroMAP-Lab** pipeline, formerly known as *NMAP-Fusion*.  
-It operationalizes our PROSPERO-registered protocol (CRD420251044665) and integrates:
+This is the official implementation repository for the **NMAP-Fusion** pipeline, operationalizing our PROSPERO-registered protocol (CRD420251044665) and integrating:
 
 1. Coordinate-based meta-analysis (ALE via BrainMap-GinerALE)
 2. Image-based synthesis (Neurosynth)
