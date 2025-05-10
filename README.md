@@ -1,9 +1,10 @@
-# NMAP-Fusion v0.2 · NeuroMAP-Lab  
+# NMAP-Fusion v0.2
 [![PROSPERO](https://img.shields.io/badge/PROSPERO-CRD420251044665-blue)](https://www.crd.york.ac.uk/PROSPERO/view/CRD420251044665)  
 [![Zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.15355619.svg)](https://doi.org/10.5281/zenodo.15355619)  
 [![OSF](https://img.shields.io/badge/OSF-Pre--reg-green)](https://osf.io/p7cjd/)
 
 > *Disclaimer: “NeuroMap Alignment Pipeline” is unrelated to the Nmap security scanner (nmap.org).*
+> **NOTE**: The term **NeuroMAP-Lab** refers to the research initiative and project group behind this tool, while **NMAP-Fusion** is the specific neuroimaging meta-analysis framework developed by the initiative. We apologize for any confusion caused by the initial naming convention, and hope this clears up the relationship between the project name and the initiative.
 
 ---
 
