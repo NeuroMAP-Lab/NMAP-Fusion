@@ -1,0 +1,47 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode or IDE config
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Logs and temp
+*.log
+*.tmp
+*.bak
+*.swp
+*.~*
+
+# MacOS / Windows artifacts
+*.DS_Store
+
+# Build/output
+*.out
+*.pdf
+*.nii
+*.nii.gz
+
+# Data dumps or scratch
+*.csv
+*.tsv
+*.json
+/data/**/*.tsv
+/data/**/*.json
+/data/**/temp/
+
+# Git control
+# No need to exclude README or LICENSE anymore
