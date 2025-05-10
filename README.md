@@ -19,10 +19,10 @@ The full method rationale and metadata are available in our [Zenodo archive](htt
 ---
 
 ## 🛠️ Current Repository Contents (`v0.2`)
-- ✅ Year-batched coordinate files from BrainMap Sleuth (1985–1999)
+- ✅ Year-batched coordinate files from BrainMap Sleuth (1985–2025)
 - ✅ Unified merging script for `.txt` exports  
 - ✅ Initial directory structure (`data/`, `scripts/`)
-- ⚠️ ⚠️ Core analysis modules (e.g., ALE integration) in development
+- ⚠️ Core analysis modules (e.g., ALE integration) in development
 
 ```bash
 NMAP-Fusion/
