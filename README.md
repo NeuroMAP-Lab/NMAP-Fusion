@@ -21,8 +21,8 @@ The full method rationale and metadata are available in our [Zenodo archive](htt
 ## 🛠️ Current Repository Contents (`v0.2`)
 - ✅ Year-batched coordinate files from BrainMap Sleuth (1985–1999)
 - ✅ Unified merging script for `.txt` exports  
-- ✅ Modular file structure (`0_LEGAL`, `1_METHODS`, etc.)
-- ⚠️ Core analysis modules (ALE, scoring) in development
+- ✅ Initial directory structure (`data/`, `scripts/`)
+- ⚠️ ⚠️ Core analysis modules (e.g., ALE integration) in development
 
 ```bash
 NMAP-Fusion/
@@ -39,7 +39,7 @@ NMAP-Fusion/
 
 ## 📋 Methodology Overview
 1. **Data ingestion** from BrainMap, Neurosynth, NeuroQuery
-2. **Text mining** and category classification (via YAML seed sets)
+2. **Text mining** and category classification
 3. **Multi-source evidence quantification**
 4. **Voxel-/region-level scoring and visualization**
 Full design: NMAP-Fusion_v0.2/2_DATA/BrainMap/README.md (available in our [Zenodo archive](https://doi.org/10.5281/zenodo.15355619))
@@ -56,8 +56,7 @@ Full design: NMAP-Fusion_v0.2/2_DATA/BrainMap/README.md (available in our [Zenod
 
 ## 🧾 Citation
 
-See [`3_DISSEMINATION/Citation.cff`](3_DISSEMINATION/Citation.cff)  
-or use the Zenodo DOI: [10.5281/zenodo.15355619](https://doi.org/10.5281/zenodo.15355619)
+See 3_DISSEMINATION/Citation.cff by the Zenodo DOI: [10.5281/zenodo.15355619](https://doi.org/10.5281/zenodo.15355619)
 
 ---
 
