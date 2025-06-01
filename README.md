@@ -29,7 +29,7 @@ NMAP-Fusion/
 ├── data/BrainMap/
 │   ├── 1985_1999.txt
 │   ├── ...
-│   ├── fmir_all.txt
+│   ├── fmri_all.txt
 │   └── sleuth_guide.png
 ├── scripts/
 │   └── merge_brainmap_coordinates.py
